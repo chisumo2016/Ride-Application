@@ -38,4 +38,16 @@
     - Run 
         npm run dev
 
+## DESIGN THE UI 
+    - Create a LoginView.vue file commponent
+    - Handle the form input with maska
+        https://github.com/beholdr/maska
+        https://beholdr.github.io/maska/#/?id=install
+            npm i maska OR
+            npm i -D maska 
+
+## BUILDING LOGIN AND AUTHENTOCATION
+    - Build an UI with Tailwindcss
+    - Install axios
+        npm install -D axios
 
