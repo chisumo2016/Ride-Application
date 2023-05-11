@@ -51,3 +51,29 @@
     - Install axios
         npm install -D axios
 
+## PASSENGER FLOW
+    - Let up open the LandinnView.vue file in the Find A Ride Button 
+    - handleFindARide method will push us to a new route 
+    - Open the router.js and add the route name
+    - Add the UI in LocationView.vue file
+    - Add the google auto complete
+        https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete
+    - Vue 3 has got an api to render the google mapy instead of abover
+        https://vue-map.netlify.app/
+        .Installation 
+                npm install -S @fawmi/vue-google-maps 0r
+                npm install -D @fawmi/vue-google-maps 0r
+    - Generate an Google API KEY
+        https://cloud.google.com/
+        https://vue-map.netlify.app/components/autocomplete.html
+    - To create the pinia  via store
+    - Create  MapView.vue
+        . use Pinia
+        . show the map  
+            https://vue-map.netlify.app/components/map.html
+
+        <GMapMarker
+            :position="location.destination.geometry">
+
+        </GMapMarker>
+

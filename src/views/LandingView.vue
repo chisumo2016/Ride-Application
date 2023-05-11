@@ -21,6 +21,14 @@
 </template>
 
 <script setup>
+
+import router from "@/router";
+
+const handleFindARide = () => {
+   router.push({
+       name: 'location'
+   })
+}
 </script>
 
 <style scoped>
